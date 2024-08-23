@@ -12,7 +12,7 @@
 }
 
 .title span {
-    color: aqua;
+    color: rgb(0, 255, 255);
     padding-left: 15px;
 }
 
@@ -23,8 +23,26 @@
     outline: none;
     cursor: pointer;
     border-radius: 50px;
-    background: silver;
+    background: rgb(107, 106, 106);
+    color: rgb(0, 255, 255);
     font-size: 26px;
     margin-top: 25px;
     margin-bottom: 50px;
+}
+
+.boxes {
+    display: flex;
+    height: 180px;
+    width: 180px;
+    background: #282c34;
+    border: 4px solid #16181d;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.board {
+    height: 600px;
+    width: 565px;
+    display: flex;
+    margin: auto;
 }

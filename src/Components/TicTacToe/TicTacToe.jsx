@@ -10,10 +10,23 @@ export const TicTacToe = () => {
         Tic Tac Toe Game In <span>React</span>
       </h1>
       <div className="board">
-        <div>
-          <button className="reset"><span>reset</span></button>
+        <div className="row1">
+          <div className="boxes"></div>
+          <div className="boxes"></div>
+          <div className="boxes"></div>
+        </div>
+        <div className="row2">
+          <div className="boxes"></div>
+          <div className="boxes"></div>
+          <div className="boxes"></div>
+        </div>
+        <div className="row3">
+          <div className="boxes"></div>
+          <div className="boxes"></div>
+          <div className="boxes"></div>
         </div>
       </div>
+          <button className="reset"><span>reset</span></button>
     </div>
   );
 };
